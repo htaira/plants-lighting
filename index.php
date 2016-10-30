@@ -4,7 +4,7 @@ require("phpMQTT.php");
 
 $input_mode = $_POST['mode'];
 $err_message = '';
-$feed = 'plants/light'
+$feed = 'plants/light';
 
 $mqtt = new phpMQTT("example.com", 1883, "Plants Lighting");
 
